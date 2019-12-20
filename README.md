@@ -1,2 +1,0 @@
-# FancyWeb
-Personal website project 
