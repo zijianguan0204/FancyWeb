@@ -19,7 +19,7 @@
   }
 
   ?>
-
+  <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">FancyWeb</a>
 
@@ -53,6 +53,7 @@
     </div>
   </nav>
   
+  <!-- Carousel -->
   <div id="carouselFullControls" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselFullControls" data-slide-to="0" class="active"></li>
@@ -81,7 +82,7 @@
   </div>
   <br>
   
-  
+  <!-- Circle Img Intro -->
   <div class = "container">
     <div class = "row">
       <div class="col-lg-4">
@@ -91,7 +92,7 @@
         <p>Curent student in SJSU pursuing Master Electronic Engineering degree.</p>
         <p>Great team worker with experience in programming Python and HTML.</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
+      </div>
 
       <div class="col-lg-4">
         <img src="zihe.jpg" class="rounded-circle" alt="Cinque Terre" height="140" weight="140">
@@ -100,11 +101,11 @@
         <p>Curent student in SJSU pursuing Master Software Engineering degree.</p>
         <p>Great team worker with experience in programming Python and HTML.</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
+      </div>
     </div>
   </div>
 
-
+  <!-- Modal SignUp -->
   <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
