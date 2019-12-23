@@ -38,7 +38,7 @@
       $lastname=$_POST['lastname'];
     }
 
-    $sql = "INSERT INTO user_account (username, password, phone, email, firstname, lastname) VALUES('$username', '$password', '$phone', '$email', '$firstname', '$lastname')";
+    $sql = "INSERT INTO user_account (user_name, password, phone, email, first_name, last_name) VALUES('$username', '$password', '$phone', '$email', '$firstname', '$lastname')";
     $stmt = mysqli_prepare($db_connection, $sql) or die(mysqli_error($db_connection));
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
