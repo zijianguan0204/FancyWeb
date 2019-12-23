@@ -1,3 +1,6 @@
+<?php
+  require_once('config.php');
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,7 +18,25 @@
   <?php
 
   if(isset($_POST['signup'])){
-    echo 'User Submitted';
+    if(isset($_POST['firstname'])){
+      $firstname=$_POST['firstname'];
+    }
+    if(isset($_POST['lastname'])){
+      $lastname=$_POST['lastname'];
+    }
+    if(isset($_POST['username'])){
+      $username=$_POST['username'];
+    }
+    if(isset($_POST['password'])){
+      $password=$_POST['password'];
+    }
+    if(isset($_POST['email'])){
+      $email=$_POST['email'];
+    }
+    if(isset($_POST['phone'])){
+      $phone=$_POST['phone'];
+    }
+    
   }
 
   ?>
@@ -120,23 +141,27 @@
             <div class = "container">
               <div class="form-group">
                 <label for="username" class="col-form-label">UserName:</label>
-                <input type="text" class="form-control" id="username" required>
+                <input type="text" class="form-control" id ="username" name="username" required>
               </div>
               <div class="form-group">
                 <label for="password" class="col-form-label">Password:</label>
-                <input type="text" class="form-control" id="password" required>
+                <input type="text" class="form-control" id= "password" name="password" required>
               </div>
               <div class="form-group">
-                <label for="fname" class="col-form-label">First Name:</label>
-                <input type="text" class="form-control" id="fname" required>
+                <label for="firstname" class="col-form-label">First Name:</label>
+                <input type="text" class="form-control" id= "firstname" name="firstname" required>
               </div>
               <div class="form-group">
-                <label for="lname" class="col-form-label">Last Name:</label>
-                <input type="text" class="form-control" id="lname" required>
+                <label for="lastname" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id= "lastname" name="lastname" required>
+              </div>
+              <div class="form-group">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="text" class="form-control" id= "phone" name="phone" required>
               </div>
               <div class="form-group">
                 <label for="email" class="col-form-label">Email:</label>
-                <input type="text" class="form-control" id="email" required>
+                <input type="text" class="form-control" id= "email" name="email" required>
               </div>
             </div>
           </div>
