@@ -19,8 +19,7 @@ mysqli_stmt_execute($stmt);
 mysqli_stmt_store_result($stmt);
 if(mysqli_stmt_num_rows($stmt)>0)
 {
-	printf("Number of rows: %d.\n", mysqli_stmt_num_rows($stmt));
-	echo 'success! found something';
+	echo 'Successfully Login!';
 }
 else
 	echo 'Your Username or Password is wrong!';

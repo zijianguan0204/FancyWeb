@@ -1,6 +1,6 @@
-<?php
-require_once('config.php');
-?>
+<!-- <?php
+//require_once('config.php');
+?> -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,37 +15,6 @@ require_once('config.php');
 </head>
 <body>
 
-  <?php
-
-  if(isset($_POST['signup'])){
-
-    if(isset($_POST['username'])){
-      $username=$_POST['username'];
-    }
-    if(isset($_POST['password'])){
-      $password=$_POST['password'];
-    }
-    if(isset($_POST['phone'])){
-      $phone=$_POST['phone'];
-    }
-    if(isset($_POST['email'])){
-      $email=$_POST['email'];
-    }
-    if(isset($_POST['firstname'])){
-      $firstname=$_POST['firstname'];
-    }
-    if(isset($_POST['lastname'])){
-      $lastname=$_POST['lastname'];
-    }
-
-    $sql = "INSERT INTO user_account (user_name, password, phone, email, first_name, last_name) VALUES('$username', '$password', '$phone', '$email', '$firstname', '$lastname')";
-    $stmt = mysqli_prepare($db_connection, $sql) or die(mysqli_error($db_connection));
-    mysqli_stmt_execute($stmt);
-    mysqli_stmt_close($stmt);
-    //mysqli_close($db_connection);
-  }
-
-  ?>
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">FancyWeb</a>
@@ -139,7 +108,7 @@ require_once('config.php');
   <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
-        <form action = "index.php" method="post">
+        <form action = "signup.php" method="post">
           <div class="modal-header">
             <h5 class="modal-title" id="signup">Sign Up</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -236,12 +205,12 @@ require_once('config.php');
 
       $.ajax({
         type: 'POST',
-        url: 'jslogin.php',
+        url: 'login.php',
         data: {user_name: user_name, pass_word: pass_word},
         success: function(data){
           alert(data);
-          if($.trim(data) === "Welcome back!"){
-            setTimeout('window.location.href = "index.php"', 500)
+          if($.trim(data) === "Successfully Login!"){
+            setTimeout('window.location.href = "index.php"', 1000);
           }
         },
         error: function(data){
