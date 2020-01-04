@@ -37,7 +37,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Contract Us</a>
-            <a class="dropdown-item" href="profile_doc/ZiheDeng.pdf" download>Download Resumes</a>
+            <a class="dropdown-item" href="profile_doc/Resumes.zip" download>Download Our Resumes</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
