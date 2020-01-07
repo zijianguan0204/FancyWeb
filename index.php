@@ -7,7 +7,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -85,6 +85,18 @@
       Hi, we are Zihe & Zijian from SJSU, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
     </p>
   </section>
+
+  <!-- Split profile with hover -->
+  <div class="container_split">
+    <div class="split left">
+      <h1> Zihe Deng</h1>
+      <a href="#" class="button">Read More</a>
+    </div>
+    <div class="split right">
+      <h1> Zijian Guang</h1>
+      <a href="#" class="button">Read More</a>
+    </div>
+  </div>
 
 
 
@@ -247,5 +259,6 @@
     });
    });
  </script>
+ <script src="js/main.js"></script>
 </body>
 </html>
