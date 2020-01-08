@@ -93,7 +93,7 @@
       <a href="#" class="button">Read More</a>
     </div>
     <div class="split right">
-      <h1> Zijian Guang</h1>
+      <h1> Zijian Guan</h1>
       <a href="#" class="button">Read More</a>
     </div>
   </div>
