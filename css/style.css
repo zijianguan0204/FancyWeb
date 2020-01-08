@@ -192,3 +192,18 @@ h1 {
 	z-index: 2;
 }
 
+
+@media(max-width: 800px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	.button {
+		width: 12rem;
+	}
+}
+@media(max-height: 700px) {
+	.button {
+		top: 70%;
+	}
+}
