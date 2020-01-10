@@ -92,8 +92,8 @@ body, html{
 	background-color: transparent;
 }
 
-h1 {
-	font-size: 4rem;
+h1{
+	font-size: 10rem;
 	color: #fff;
 	position: absolute;
 	left: 50%;
@@ -101,6 +101,18 @@ h1 {
 	transform: translateX(-50%);
 	white-space: nowrap;
 }
+
+h2.h2_split{
+	font-size: 5rem;
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+}
+
+
 
 .button {
 	display: block;

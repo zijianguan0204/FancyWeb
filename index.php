@@ -9,8 +9,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  
 
   
 
@@ -90,7 +92,8 @@
   <!-- Split profile with hover -->
   <div class="container_split">
     <div class="split left">
-      <h1> Zihe Deng</h1>
+      <h1>Zihe Deng</h1>        
+      <h2 class = "h2_split">Here is the intro for Zihe</h2>
       <a href="#" class="button">Read More</a>
     </div>
     <div class="split right">
