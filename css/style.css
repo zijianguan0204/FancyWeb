@@ -92,33 +92,33 @@ body, html{
 	background-color: transparent;
 }
 
-h1{
-	font-size: 10rem;
-	color: #fff;
-	position: absolute;
-	left: 50%;
-	top: 20%;
-	transform: translateX(-50%);
-	white-space: nowrap;
-}
-
-h2.h2_split{
+h1.split_font{
 	font-size: 5rem;
 	color: #fff;
 	position: absolute;
 	left: 50%;
-	top: 30%;
+	top: 10%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+}
+
+h2.split_font{
+	font-size: 3rem;
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 40%;
 	transform: translateX(-50%);
 	white-space: nowrap;
 }
 
 
 
-.button {
+.button_split {
 	display: block;
 	position: absolute;
 	left: 50%;
-	top: 40%;
+	top: 60%;
 	height: 2.5rem;
 	padding-top: 0.2rem;
 	width: 15rem;
@@ -132,12 +132,12 @@ h2.h2_split{
 	transform: translateX(-50%);
 }
 
-.split.left .button:hover {
+.split.left .button_split:hover {
 	background-color: var(--left-button-hover-color);
 	border-color: var(--left-button-hover-color);
 }
 
-.split.right .button:hover {
+.split.right .button_split:hover {
 	background-color: var(--right-button-hover-color);
 	border-color: var(--right-button-hover-color);
 }
@@ -210,12 +210,12 @@ h2.h2_split{
 		font-size: 2rem;
 	}
 
-	.button {
+	.button_split {
 		width: 12rem;
 	}
 }
 @media(max-height: 700px) {
-	.button {
+	.button_split {
 		top: 70%;
 	}
 }
