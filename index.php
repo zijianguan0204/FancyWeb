@@ -103,12 +103,12 @@ require_once('config.php');
   </div>
 </div>
 
-<section class="section section-dark">
+<!-- <section class="section section-dark">
   <h2>Our Contact Info:</h2>
   <p>
     Hi, we are Zihe & Zijian from SJSU and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
   </p>
-</section>
+</section> -->
 
 
 
