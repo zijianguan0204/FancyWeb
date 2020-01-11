@@ -7,14 +7,19 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  
+  
+
+  
 
   <title>Fancy Web</title>
 </head>
 <body>
-
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">FancyWeb</a>
@@ -52,40 +57,83 @@
     </div>
   </nav>
   
-  <!-- Carousel -->
-  <div id="carouselFullControls" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselFullControls" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselFullControls" data-slide-to="1"></li>
-      <li data-target="#carouselFullControls" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="img/witcher.jpg" alt="First slide" height="500">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/creed.jpg" alt="Second slide" height="500">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/worr.jpg" alt="Third slide" height="500">
-      </div>
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        FancyWeb-Parallax Only
+      </span>
     </div>
-    <a class="carousel-control-prev" href="#carouselFullControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselFullControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-  <br>
-  
+
+  <section class="section section-light">
+    <h2>Welcome to our FancyWeb!</h2>
+    <p>
+      Hi, we are Zihe & Zijian from SJSU and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
+    </p>
+  </section>
+
+
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Brightest Stars:
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Zihe and Zijian</h2>
+    <p>
+      Hi, we are Zihe & Zijian from SJSU, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
+    </p>
+  </section>
+
+  <!-- Split profile with hover -->
+  <div class="container_split">
+    <div class="split left">
+      <h1 class = "split_font">Zihe Deng</h1>  
+      <h1 class = "split_font_fd">Add Into here
+        <br>Next Line...
+      </h1>
+      <a href="#" class="button_split">Read More</a>
+    </div>
+    <div class="split right">
+      <h1 class = "split_font">Zijian Guan</h1>  
+      <h1 class = "split_font_fd">Add Into here
+        <br>Next Line...
+      </h1>
+      <a href="#" class="button_split">Read More</a>
+    </div>
+  </div>
+
+
+
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border">
+        We appreciate your visit:)
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Our Contact Info:</h2>
+    <p>
+      Hi, we are Zihe & Zijian from SJSU and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
+    </p>
+  </section>
+
+
+
+
   <!-- Circle Img Intro -->
   <div class = "container">
     <div class = "row">
       <div class="col-lg-4">
-        <img src="zihe.jpg" class="rounded-circle" alt="Cinque Terre" height="140" weight="140">
+        <img src="img/about_us/zihe.jpg" class="rounded-circle" alt="Cinque Terre" height="140" weight="140">
         <h2>Zihe Deng</h2>
         <h5>Electronic Engineer</h5>
         <p>Curent student in SJSU pursuing Master Electronic Engineering degree.</p>
@@ -94,7 +142,7 @@
       </div>
 
       <div class="col-lg-4">
-        <img src="zihe.jpg" class="rounded-circle" alt="Cinque Terre" height="140" weight="140">
+        <img src="img/about_us/zihe.jpg" class="rounded-circle" alt="Cinque Terre" height="140" weight="140">
         <h2>Zijian Guan</h2>
         <h5>Software Engineer</h5>
         <p>Curent student in SJSU pursuing Master Software Engineering degree.</p>
@@ -221,5 +269,6 @@
     });
    });
  </script>
+ <script src="js/split.js"></script>
 </body>
 </html>
