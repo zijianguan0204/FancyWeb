@@ -93,12 +93,13 @@
   <!-- Split profile with hover -->
   <div class="container_split">
     <div class="split left">
-      <h1 class = "split_font">Zihe Deng</h1>        
-      <h2 class = "split_font">Here is the intro for Zihe</h2>
+      <h1 class = "split_font">Zihe Deng</h1>  
+      <h1 class = "split_font_fd">Here is the intro for Zihe</h1>
       <a href="#" class="button_split">Read More</a>
     </div>
     <div class="split right">
-      <h1> Zijian Guan</h1>
+      <h1 class = "split_font">Zijian Guan</h1>  
+      <h1 class = "split_font_fd">Here is the intro for Zijian</h1>
       <a href="#" class="button_split">Read More</a>
     </div>
   </div>

@@ -102,7 +102,7 @@ h1.split_font{
 	white-space: nowrap;
 }
 
-h2.split_font{
+h1.split_font_fd{
 	font-size: 3rem;
 	color: #fff;
 	position: absolute;
@@ -110,6 +110,7 @@ h2.split_font{
 	top: 40%;
 	transform: translateX(-50%);
 	white-space: nowrap;
+	opacity: 0;
 }
 
 
@@ -179,12 +180,17 @@ h2.split_font{
 	height: 100%;
 	background: var(--right-bg-color);
 }
-.split.left, .split.right, .split.right:before, .split.left:before {
+.split.left, .split.right, .split.right:before, .split.left:before, .hover-left .left .split_font_fd, .hover-right .right .split_font_fd{
 	transition: var(--speed) all ease-in-out;
 }
 .hover-left .left {
 	width: var(--hover-width);
 }
+
+.hover-left .left .split_font_fd{
+	opacity: 1.0;
+}
+
 .hover-left .right {
 	width: var(--other-width);
 }
@@ -195,7 +201,13 @@ h2.split_font{
 
 .hover-right .right {
 	width: var(--hover-width);
+
 }
+
+.hover-right .right .split_font_fd{
+	opacity: 1.0;
+}
+
 .hover-right .left {
 	width: var(--other-width);
 }
@@ -204,9 +216,8 @@ h2.split_font{
 	z-index: 2;
 }
 
-
 @media(max-width: 800px) {
-	h1 {
+	h1.split_font {
 		font-size: 2rem;
 	}
 
