@@ -61,19 +61,10 @@
   <div class="pimg1">
     <div class="ptext">
       <span class="border">
-        FancyWeb-Parallax Only
+        Welcome to Our FancyWeb
       </span>
     </div>
   </div>
-
-  <section class="section section-light">
-    <h2>Welcome to our FancyWeb!</h2>
-    <p>
-      Hi, we are Zihe & Zijian from SJSU and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
-    </p>
-  </section>
-
-
 
   <div class="pimg2">
     <div class="ptext">
@@ -83,13 +74,7 @@
     </div>
   </div>
 
-  <section class="section section-dark">
-    <h2>Zihe and Zijian</h2>
-    <p>
-      Hi, we are Zihe & Zijian from SJSU, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
-    </p>
-  </section>
-
+  
   <!-- Split profile with hover -->
   <div class="container_split">
     <div class="split left">
