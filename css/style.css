@@ -41,13 +41,13 @@ body, html{
 .pimg1{
 	opacity: 0.7;
 	background-image: url('../img/background/city_train.jpg');
-	min-height:93%;
+	min-height:95%;
 }
 
 .pimg2{
-	opacity: 0.8;
+	opacity: 0.7;
 	background-image: url('../img/background/city_blur.jpg');
-	min-height:400px;
+	min-height:200px;
 }
 
 .pimg3{
