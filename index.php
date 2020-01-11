@@ -1,6 +1,6 @@
-<!-- <?php
-//require_once('config.php');
-?> -->
+<?php
+require_once('config.php');
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,14 +11,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  
-  
-
-  
+  <script src="https://kit.fontawesome.com/1ab8dfc894.js" crossorigin="anonymous"></script>
 
   <title>Fancy Web</title>
 </head>
+
+
+
 <body>
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -98,24 +97,24 @@
 
   <div class="pimg3">
     <div class="ptext">
-      <span class="border">
-        We appreciate your visit:)
-      </span>
-    </div>
+     <span class="border">
+      We appreciate your visit:)
+    </span>
   </div>
+</div>
 
-  <section class="section section-dark">
-    <h2>Our Contact Info:</h2>
-    <p>
-      Hi, we are Zihe & Zijian from SJSU and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
-    </p>
-  </section>
+<section class="section section-dark">
+  <h2>Our Contact Info:</h2>
+  <p>
+    Hi, we are Zihe & Zijian from SJSU and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
+  </p>
+</section>
 
 
 
 
-  <!-- Circle Img Intro -->
-  <div class = "container">
+<!-- Circle Img Intro -->
+  <!-- <div class = "container">
     <div class = "row">
       <div class="col-lg-4">
         <img src="img/about_us/zihe.jpg" class="rounded-circle" alt="Cinque Terre" height="140" weight="140">
@@ -135,7 +134,7 @@
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Modal SignUp -->
   <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
@@ -256,4 +255,133 @@
  </script>
  <script src="js/split.js"></script>
 </body>
+
+
+<!-- Footer -->
+<footer>
+
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <hr class="clearfix w-100 d-md-none">
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <div class="pimg3">
+    <div class="ptext_footer">
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-6">
+            <ul class="list-unstyled list-inline text-center">
+              <h3 style="color:#FFFFFF;">Zihe Deng's</h3>
+              <li class="list-inline-item">
+                <a href="google.com" class="btn-floating btn-fb mx-1">
+                  <i class="fab fa-facebook-f fa-2x" style="color:#FF0000;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                  <i class="fab fa-twitter fa-2x" style="color:#FF0000;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1">
+                  <i class="fab fa-google-plus-g fa-2x" style="color:#FF0000;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                  <i class="fab fa-linkedin-in fa-2x" style="color:#FF0000;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                  <i class="fab fa-dribbble fa-2x" style="color:#FF0000;"> </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class = "col-6">
+            <ul class="list-unstyled list-inline text-center">
+              <h3 style="color:#FFFFFF;">Contact Info</h3>
+              <li class="list-inline-item" style="color:#FFFFFF;">
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fas fa-home mr-3"></i> San Jose, CA 95008, US</p>
+                </a>
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fas fa-envelope mr-3"></i> zihe.deng@sjsu.com</p>
+                </a>
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fas fa-phone mr-3"></i> + 01 425 626 9214</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+    
+        <div class = "row">
+          <div class = "col-6">
+            <ul class="list-unstyled list-inline text-center">
+              <h3 style="color:#FFFFFF;">Zijian Guan's</h3>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/profile.php?id=100007270539407" class="btn-floating btn-fb mx-1">
+                  <i class="fab fa-facebook-f fa-2x" style="color:#00FFE6;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/zijianguan0204" class="btn-floating btn-github mx-1">
+                  <i class="fab fa-github fa-2x" style="color:#00FFE6;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/zijian-guan-4151a6137/" class="btn-floating btn-li mx-1">
+                  <i class="fab fa-linkedin-in fa-2x" style="color:#00FFE6;"> </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class = "col-6">
+            <ul class="list-unstyled list-inline text-center">
+              <h3 style="color:#FFFFFF;">Contact Info</h3>
+              <li class="list-inline-item" style="color:#FFFFFF;">
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fas fa-home mr-3"></i> San Jose, CA 95129, US</p>
+                </a>
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fas fa-envelope mr-3"></i> zijian.guan@sjsu.com</p>
+                </a>
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fas fa-phone mr-3"></i> + 01 559 387 9948</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+</div>
+
+
+
+</footer>
 </html>
