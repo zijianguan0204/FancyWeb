@@ -27,6 +27,12 @@ body, html{
 	scroll-snap-type: y mandatory;
 }
 
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4
+}
 
 .pimg1, .pimg2, .pimg3{
 	position: relative;
