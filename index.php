@@ -20,7 +20,7 @@ require_once('config.php');
 
 <body>
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <a class="navbar-brand" href="#">FancyWeb</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,17 +30,22 @@ require_once('config.php');
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#about_us">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#demo">What we've done</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact_us">Contact Us</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             More Options
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Contract Us</a>
             <a class="dropdown-item" href="profile_doc/Resumes.zip" download>Download Our Resumes</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
@@ -57,7 +62,7 @@ require_once('config.php');
   </nav>
   
 
-  <div class="pimg1">
+  <div class="pimg1" id="home">
     <div class="ptext">
       <span class="border">
         Welcome to Our FancyWeb
@@ -75,7 +80,7 @@ require_once('config.php');
 
   
   <!-- Split profile with hover -->
-  <div class="container_split">
+  <div class="container_split" id="about_us">
     <div class="split left">
       <h1 class = "split_font">Zihe Deng</h1>  
       <h1 class = "split_font_fd">Add Into here
@@ -92,10 +97,18 @@ require_once('config.php');
     </div>
   </div>
 
+  <section class="section section-dark" id="demo">
+    <h2>Past Projects:</h2>
+    <p>
+      some imgs in slides at here.
+    </p>
+  </section>
 
 
 
-  <div class="pimg3">
+
+
+  <div class="pimg3" id="contact_us">
     <div class="ptext">
      <span class="border">
       We appreciate your visit:)
@@ -103,12 +116,7 @@ require_once('config.php');
   </div>
 </div>
 
-<!-- <section class="section section-dark">
-  <h2>Our Contact Info:</h2>
-  <p>
-    Hi, we are Zihe & Zijian from SJSU and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla. Hi I'm Tyler, and blablabla.
-  </p>
-</section> -->
+
 
 
 
@@ -329,7 +337,7 @@ require_once('config.php');
         </div>
 
         <hr>
-    
+
         <div class = "row">
           <div class = "col-6">
             <ul class="list-unstyled list-inline text-center">

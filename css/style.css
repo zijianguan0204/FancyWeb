@@ -21,7 +21,25 @@ body, html{
 
 	padding: 0;
 	width: 100%;
-	overflow-x: hidden;
+
+	scroll-behavior: smooth;
+}
+
+
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 4;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
 }
 
 
@@ -37,12 +55,16 @@ body, html{
 	*/
 	background-attachment: fixed;
 }
+/*.navbar-brand{
+	scroll-snap-align: center;
+}*/
 
 
 .pimg1{
 	opacity: 0.7;
 	background-image: url('../img/background/city_train.jpg');
-	min-height:95%;
+	min-height:100%;
+	/*scroll-snap-align: center;*/
 }
 
 .pimg2{
@@ -54,7 +76,7 @@ body, html{
 .pimg3{
 	opacity: 0.85;
 	background-image: url('../img/background/city3.jpg');
-	min-height:450px;
+	min-height:430px;
 }
 
 .section{
@@ -70,6 +92,7 @@ body, html{
 .section-dark{
 	background-color: #282e34;
 	color: #ddd;
+	min-height:100%;
 }
 
 .ptext{
@@ -86,6 +109,7 @@ body, html{
 .pimg3 .ptext_footer{
 	background: var(--footer-bg-color);
 	bottom: 0;
+	/*scroll-snap-align: center;*/
 }
 
 .ptext_footer{
@@ -155,16 +179,12 @@ h1.split_font_fd{
 	border-color: var(--left-button-hover-color);
 }
 
-.split.right .button_split:hover {
-	background-color: var(--right-button-hover-color);
-	border-color: var(--right-button-hover-color);
-}
-
 .container_split {
 	position: relative;
 	width: 100%;
 	height: 100%;
 	background: var(--container-bg-color);
+	/*scroll-snap-align: center;*/
 }
 
 .split {
@@ -201,6 +221,7 @@ h1.split_font_fd{
 .hover-left .left .split_font_fd, .hover-right .right .split_font_fd{
 	transition: var(--speed) all ease-in-out;
 }
+
 .hover-left .left {
 	width: var(--hover-width);
 }
