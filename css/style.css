@@ -43,7 +43,7 @@ body, html{
 }
 
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3, .pimg_zijian_1{
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -79,9 +79,15 @@ body, html{
 	min-height:430px;
 }
 
+.pimg_zijian_1{
+	opacity: 1.0;
+	background-image: url('../img/background/city3.jpg');
+	min-height:100%;
+}
+
 .section{
 	text-align:center;
-	padding:50px 80px;
+	padding:0px;
 }
 
 .section-light{

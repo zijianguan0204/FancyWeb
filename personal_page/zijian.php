@@ -1,5 +1,5 @@
 <?php
-require_once('config.php');
+// require_once('config.php');
 ?>
 <!doctype html>
 <html lang="en">
@@ -9,7 +9,7 @@ require_once('config.php');
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/1ab8dfc894.js" crossorigin="anonymous"></script>
 
@@ -19,8 +19,6 @@ require_once('config.php');
 
 
 <body>
-
-  
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <a class="navbar-brand" href="#">FancyWeb</a>
@@ -64,59 +62,39 @@ require_once('config.php');
   </nav>
   
 
-  <div class="pimg1" id="home">
-    <div class="ptext">
-      <span class="border">
-        Welcome to Our FancyWeb
-      </span>
-    </div>
-  </div>
-
-  <div class="pimg2">
-    <div class="ptext">
-      <span class="border trans">
-        Brightest Stars:
-      </span>
-    </div>
-  </div>
+  
 
   
-  <!-- Split profile with hover -->
-  <div class="container_split" id="about_us">
-    <div class="split left">
-      <h1 class = "split_font">Zihe Deng</h1>  
-      <h1 class = "split_font_fd">Add Into here
-        <br>Next Line...
-      </h1>
-      <a href="#" class="button_split">Read More</a>
-    </div>
-    <div class="split right">
-      <h1 class = "split_font">Zijian Guan</h1>  
-      <h1 class = "split_font_fd">Add Into here
-        <br>Next Line...
-      </h1>
-      <a href="#" class="button_split">Read More</a>
-    </div>
-  </div>
+
 
   <section class="section section-dark" id="demo">
-    <h2>Past Projects:</h2>
-    <p>
-      some imgs in slides at here.
-    </p>
-  </section>
-
-
-
-
-
-  <div class="pimg3" id="contact_us">
-    <div class="ptext">
-     <span class="border">
-      We appreciate your visit:)
-    </span>
+    <div class="pimg_zijian_1" id="Demo1">
+      <div class="ptext">
+       
+    </div>
   </div>
-</div>
+</section>
+
+<section class="section section-dark" id="demo">
+  <h2>Past Projects:</h2>
+  <p>
+    some imgs in slides at here.
+  </p>
+</section>
+
+<section class="section section-dark" id="demo">
+  <h2>Past Projects:</h2>
+  <p>
+    some imgs in slides at here.
+  </p>
+</section>
+
+<section class="section section-dark" id="demo">
+  <h2>Past Projects:</h2>
+  <p>
+    some imgs in slides at here.
+  </p>
+</section>
 
 
 
@@ -146,83 +124,16 @@ require_once('config.php');
     </div>
   </div> -->
 
-  <!-- Modal SignUp -->
-  <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <form action = "signup.php" method="post">
-          <div class="modal-header">
-            <h5 class="modal-title" id="signup">Sign Up</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class = "container">
-              <div class="form-group">
-                <label for="username" class="col-form-label">UserName:</label>
-                <input type="text" class="form-control" id ="username" name="username" required>
-              </div>
-              <div class="form-group">
-                <label for="password" class="col-form-label">Password:</label>
-                <input type="text" class="form-control" id= "password" name="password" required>
-              </div>
-              <div class="form-group">
-                <label for="firstname" class="col-form-label">First Name:</label>
-                <input type="text" class="form-control" id= "firstname" name="firstname" required>
-              </div>
-              <div class="form-group">
-                <label for="lastname" class="col-form-label">Last Name:</label>
-                <input type="text" class="form-control" id= "lastname" name="lastname" required>
-              </div>
-              <div class="form-group">
-                <label for="phone" class="col-form-label">Phone:</label>
-                <input type="text" class="form-control" id= "phone" name="phone" required>
-              </div>
-              <div class="form-group">
-                <label for="email" class="col-form-label">Email:</label>
-                <input type="text" class="form-control" id= "email" name="email" required>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="submit" name="signup"class="btn btn-primary">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
+    <div class="pimg3" id="contact_us">
+    <div class="ptext">
+     <span class="border">
+      We appreciate your visit:)
+    </span>
   </div>
+</div>
+  
 
-  <!-- Log in feature: -->
-  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <form action = "index.php" method="post">
-          <div class="modal-header">
-            <h5 class="modal-title" id="login">Log In</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class = "container">
-              <div class="form-group">
-                <label for="user_name" class="col-form-label">UserName:</label>
-                <input type="text" class="form-control" id="user_name" required>
-              </div>
-              <div class="form-group">
-                <label for="pass_word" class="col-form-label">Password:</label>
-                <input type="text" class="form-control" id="pass_word" required>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" name="button" id="login_button" class="btn btn-primary">Log in</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+
 
 
   <!-- Optional JavaScript -->
@@ -263,7 +174,7 @@ require_once('config.php');
     });
    });
  </script>
- <script src="js/split.js"></script>
+ <script src="../js/split.js"></script>
 </body>
 
 
