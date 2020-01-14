@@ -80,10 +80,10 @@
   </section>
 
   <section class="section section-light" id="demo">
-    <div class ="container text-center">
+    <div class ="container">
       <div class="row pt-5">
         <div class="col-6 pt-5">
-          <img src="../img/person/zijian1.jpg" class="img-thumbnail " alt="Responsive image" width="400" height="600">
+          <img src="../img/person/zijian1.jpg" class="img-thumbnail float-left" alt="Responsive image" width="400" height="600">
         </div>
         <div class="col-6 pt-5">
           <div class="ptext_zijian_title">
