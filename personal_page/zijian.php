@@ -69,39 +69,54 @@
 
   <section class="section section-dark" id="demo">
     <div class="pimg_zijian_1" id="Demo1">
-      <div class="ptext">
-       
+      <div class ="container">
+        <div class="row pt-5">
+          <div class="ptext_zijian_bigtitle">
+            Passions<br>&<br>proficiency
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section section-dark" id="demo">
-  <h2>Past Projects:</h2>
-  <p>
-    some imgs in slides at here.
-  </p>
-</section>
+  <section class="section section-light" id="demo">
+    <div class ="container text-center">
+      <div class="row pt-5">
+        <div class="col-6 pt-5">
+          <img src="../img/person/zijian1.jpg" class="img-thumbnail " alt="Responsive image" width="400" height="600">
+        </div>
+        <div class="col-6 pt-5">
+          <div class="ptext_zijian_title">
+            Some Facts About Me..
+          </div>
+          <div class ="ptext_zijian_content">
+            I am a freshman pursing Software Engineering Master Degree in San Jose State University, and also working as a TA in Data Structure class.<br>
+            I love playing video games, and they inspired me to be a programmer because games are interesting worlds created by code, and I can see programming has the magic to make anything come true!  
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="section section-dark" id="demo">
-  <h2>Past Projects:</h2>
-  <p>
-    some imgs in slides at here.
-  </p>
-</section>
+  <section class="section section-dark" id="demo">
+    <h2>Past Projects:</h2>
+    <p>
+      some imgs in slides at here.
+    </p>
+  </section>
 
-<section class="section section-dark" id="demo">
-  <h2>Past Projects:</h2>
-  <p>
-    some imgs in slides at here.
-  </p>
-</section>
-
-
+  <section class="section section-dark" id="demo">
+    <h2>Past Projects:</h2>
+    <p>
+      some imgs in slides at here.
+    </p>
+  </section>
 
 
 
 
-<!-- Circle Img Intro -->
+
+
+  <!-- Circle Img Intro -->
   <!-- <div class = "container">
     <div class = "row">
       <div class="col-lg-4">
@@ -124,57 +139,57 @@
     </div>
   </div> -->
 
-    <div class="pimg3" id="contact_us">
+  <div class="pimg3" id="contact_us">
     <div class="ptext">
      <span class="border">
       We appreciate your visit:)
     </span>
   </div>
 </div>
-  
 
 
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-  <script>
-    $(function(){
-     $('#login_button').click(function(e){
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-      var valid = this.form.checkValidity();
+<script>
+  $(function(){
+   $('#login_button').click(function(e){
 
-      if(valid){
-        var user_name = $('#user_name').val();
-        var pass_word = $('#pass_word').val();
-      }
+    var valid = this.form.checkValidity();
 
-      e.preventDefault();
+    if(valid){
+      var user_name = $('#user_name').val();
+      var pass_word = $('#pass_word').val();
+    }
 
-      $.ajax({
-        type: 'POST',
-        url: 'login.php',
-        data: {user_name: user_name, pass_word: pass_word},
-        success: function(data){
-          alert(data);
-          if($.trim(data) === "Successfully Login!"){
-            setTimeout('window.location.href = "index.php"', 1000);
-          }
-        },
-        error: function(data){
-          alert('there were errors while doing the opration.');
+    e.preventDefault();
+
+    $.ajax({
+      type: 'POST',
+      url: 'login.php',
+      data: {user_name: user_name, pass_word: pass_word},
+      success: function(data){
+        alert(data);
+        if($.trim(data) === "Successfully Login!"){
+          setTimeout('window.location.href = "index.php"', 1000);
         }
-      });
-
+      },
+      error: function(data){
+        alert('there were errors while doing the opration.');
+      }
     });
-   });
- </script>
- <script src="../js/split.js"></script>
+
+  });
+ });
+</script>
+<script src="../js/split.js"></script>
 </body>
 
 

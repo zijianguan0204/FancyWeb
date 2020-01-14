@@ -11,6 +11,7 @@
 }
 
 body, html{
+	width: 100vw;
 	height: 100%;
 	margin: 0;
 	font-size: 16px;
@@ -64,7 +65,6 @@ body, html{
 	opacity: 0.7;
 	background-image: url('../img/background/city_train.jpg');
 	min-height:100%;
-	/*scroll-snap-align: center;*/
 }
 
 .pimg2{
@@ -81,8 +81,8 @@ body, html{
 
 .pimg_zijian_1{
 	opacity: 1.0;
-	background-image: url('../img/background/city3.jpg');
-	min-height:100%;
+	background-image: url('../img/person/person1.jpg');
+	min-height:100vh;
 }
 
 .section{
@@ -91,8 +91,9 @@ body, html{
 }
 
 .section-light{
-	background-color: #f4f4f4;
+	background-color: #F0F0F0 ;
 	color: #666;
+	min-height:100%;
 }
 
 .section-dark{
@@ -111,6 +112,43 @@ body, html{
 	letter-spacing:5px;
 	text-transform: uppercase;
 }
+
+.ptext_zijian_title{
+	position:absolute;
+	top:10%;
+	width:100%;
+	text-align: center;
+	color:#000;
+	font-size:50px;
+	letter-spacing:5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.ptext_zijian_bigtitle{
+	right: 60%;
+	position:absolute;
+	top:20%;
+	width:100%;
+	right: 20%;
+	color:#000;
+	font-size:70px;
+	letter-spacing:5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+	
+
+.ptext_zijian_content{
+	position:absolute;
+	top:40%;
+	width:100%;
+	text-align: center;
+	color:#000;
+	font-size:25px;
+	letter-spacing:3px;
+}
+
 
 .pimg3 .ptext_footer{
 	background: var(--footer-bg-color);
