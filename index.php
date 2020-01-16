@@ -300,6 +300,11 @@ require_once('config.php');
                   <i class="fab fa-github fa-2x" style="color:#FF0000;"> </i>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCLIevMiSLVJjg4ce9M1M3jw?view_as=subscriber" class="btn-floating btn-li mx-1">
+                  <i class="fab fa-youtube fa-2x" style="color:#FF0000;"> </i>
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -308,7 +313,7 @@ require_once('config.php');
               <h3 style="color:#FFFFFF;">Contact Info</h3>
               <li class="list-inline-item" style="color:#FFFFFF;">
                 <a class="btn-floating btn-fb mx-1">
-                  <i class="fas fa-home mr-3"></i> San Jose, CA 95008, US</p>
+                  <i class="fas fa-home mr-3"></i> San Jose, CA 95129, US</p>
                 </a>
                 <a class="btn-floating btn-fb mx-1">
                   <i class="fas fa-envelope mr-3"></i> zihe.deng@sjsu.com</p>
