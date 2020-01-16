@@ -9,8 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
   <script src="https://kit.fontawesome.com/1ab8dfc894.js" crossorigin="anonymous"></script>
 
   <title>Fancy Web</title>
@@ -92,31 +92,61 @@
           <div class ="ptext_zijian_content">
             I am a freshman pursing Software Engineering Master Degree in San Jose State University, and also working as a TA in Data Structure class.<br>
             I love playing video games, and they inspired me to be a programmer because games are interesting worlds created by code, and I can see programming has the magic to make anything come true!  
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section section-dark" id="demo">
-    <h2>Past Projects:</h2>
-    <p>
-      some imgs in slides at here.
-    </p>
-  </section>
+    <section class="section section-dark" id="demo">
+      <h2>Past Projects:</h2>
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+            </div>
+            <div class = "carousel-caption">
+              <h1>Hello from first slide</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
 
-  <section class="section section-dark" id="demo">
-    <h2>Past Projects:</h2>
-    <p>
-      some imgs in slides at here.
-    </p>
-  </section>
+    <section class="section section-dark" id="demo">
+      <h2>Past Projects:</h2>
+      <p>
+        some imgs in slides at here.
+      </p>
+    </section>
 
 
 
 
 
 
-  <!-- Circle Img Intro -->
+    <!-- Circle Img Intro -->
   <!-- <div class = "container">
     <div class = "row">
       <div class="col-lg-4">
@@ -159,35 +189,11 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script>
-  $(function(){
-   $('#login_button').click(function(e){
-
-    var valid = this.form.checkValidity();
-
-    if(valid){
-      var user_name = $('#user_name').val();
-      var pass_word = $('#pass_word').val();
-    }
-
-    e.preventDefault();
-
-    $.ajax({
-      type: 'POST',
-      url: 'login.php',
-      data: {user_name: user_name, pass_word: pass_word},
-      success: function(data){
-        alert(data);
-        if($.trim(data) === "Successfully Login!"){
-          setTimeout('window.location.href = "index.php"', 1000);
-        }
-      },
-      error: function(data){
-        alert('there were errors while doing the opration.');
-      }
-    });
-
-  });
- });
+  $('.carousel').carousel({
+    interval: 2000,
+    pause: true,
+    keyboard: true
+  })
 </script>
 <script src="../js/split.js"></script>
 </body>
