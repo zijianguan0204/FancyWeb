@@ -97,40 +97,66 @@
       </div>
     </section>
 
-    <section class="section section-dark" id="demo">
-      <h2>Past Projects:</h2>
-      <div id="carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+    <section class="section section-light" id="demo">
+      <h1><br>Project Demo</h1>
+      <div class = "container-fluid">
+        <h1><br></h1>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+<!--           <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+              </div>
+              <div class = "carousel-caption">
+                <h1>Firewall Project<br><br></h1>
+                <h5>Programming language: Python<br>
+                  Environment: Linux(Admin)<br><br>
+                </h5>
+                <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                </p>
+              </div>
             </div>
-            <div class = "carousel-caption">
-              <h1>Hello from first slide</h1>
+            <div class="carousel-item">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+              </div>
+              <div class = "carousel-caption">
+                <h1>Firewall Project<br><br></h1>
+                <h5>Programming language: Python<br>
+                  Environment: Linux(Admin)<br><br>
+                </h5>
+                <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+              </div>
+              <div class = "carousel-caption">
+                <h1>Firewall Project<br><br></h1>
+                <h5>Programming language: Python<br>
+                  Environment: Linux(Admin)<br><br>
+                </h5>
+                <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
-          </div>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </section>
 

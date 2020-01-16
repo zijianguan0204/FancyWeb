@@ -293,14 +293,23 @@ h1.split_font_fd{
 .embed-responsive {
     position: relative;
     display: block;
-    width: 70%;
+    width: 50%;
+    height: 30%;
     padding: 0;
     overflow: hidden;
   	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+  	left:10%;
+  	/*margin-right: auto;*/
 }
 
+.carousel-caption {
+	padding:0;
+    position: absolute;
+    top:0;
+    color: #000;
+    margin-left:50%;
+    /*text-align: center;*/
+}
 
 @media(max-width: 800px) {
 	h1.split_font {
