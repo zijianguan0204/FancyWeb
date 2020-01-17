@@ -20,6 +20,8 @@
 
 <body>
   <!-- Nav Bar -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <a class="navbar-brand" href="#">FancyWeb</a>
 
@@ -161,11 +163,24 @@
       </div>
     </section>
 
-    <section class="section section-dark" id="demo">
-      <h2>Past Projects:</h2>
-      <p>
-        some imgs in slides at here.
-      </p>
+    <section class="section section-light" id="demo">
+      <h1><br>Facebook Page That I follow...<br><br></h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <div class="fb-page" data-href="https://www.facebook.com/google" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/google" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/google">Google</a></blockquote>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="fb-page" data-href="https://www.facebook.com/apple/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/apple/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/apple/">Apple</a></blockquote></div>
+          </div>
+        </div>
+      </div>
+      
     </section>
 
 
