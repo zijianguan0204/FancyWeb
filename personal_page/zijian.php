@@ -1,5 +1,5 @@
 <?php
-require_once('config.php');
+// require_once('config.php');
 ?>
 <!doctype html>
 <html lang="en">
@@ -9,8 +9,8 @@ require_once('config.php');
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
   <script src="https://kit.fontawesome.com/1ab8dfc894.js" crossorigin="anonymous"></script>
 
   <title>Fancy Web</title>
@@ -19,8 +19,6 @@ require_once('config.php');
 
 
 <body>
-
-  
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <a class="navbar-brand" href="#">FancyWeb</a>
@@ -64,66 +62,118 @@ require_once('config.php');
   </nav>
   
 
-  <div class="pimg1" id="home">
-    <div class="ptext">
-      <span class="border">
-        Welcome to Our FancyWeb
-      </span>
-    </div>
-  </div>
-
-  <div class="pimg2">
-    <div class="ptext">
-      <span class="border trans">
-        Brightest Stars:
-      </span>
-    </div>
-  </div>
+  
 
   
-  <!-- Split profile with hover -->
-  <div class="container_split" id="about_us">
-    <div class="split left">
-      <h1 class = "split_font">Zihe Deng</h1>  
-      <h1 class = "split_font_fd">Add Into here
-        <br>Next Line...
-      </h1>
-      <a href="#" class="button_split">Read More</a>
-    </div>
-    <div class="split right">
-      <h1 class = "split_font">Zijian Guan</h1>  
-      <h1 class = "split_font_fd">Add Into here
-        <br>Next Line...
-      </h1>
-      <a href="personal_page/zijian.php" class="button_split">Read More</a>
-    </div>
-  </div>
+
 
   <section class="section section-dark" id="demo">
-    <h2>Past Projects:</h2>
-    <p>
-      some imgs in slides at here.
-    </p>
+    <div class="pimg_zijian_1" id="Demo1">
+      <div class ="container">
+        <div class="row pt-5">
+          <div class="ptext_zijian_bigtitle">
+            Passions<br>&<br>proficiency
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <section class="section section-light" id="demo">
+    <div class ="container">
+      <div class="row pt-5">
+        <div class="col-6 pt-5">
+          <img src="../img/person/zijian1.jpg" class="img-thumbnail float-left" alt="Responsive image" width="400" height="600">
+        </div>
+        <div class="col-6 pt-5">
+          <div class="ptext_zijian_title">
+            Some Facts About Me..
+          </div>
+          <div class ="ptext_zijian_content">
+            I am a freshman pursing Software Engineering Master Degree in San Jose State University, and also working as a TA in Data Structure class.<br>
+            I love playing video games, and they inspired me to be a programmer because games are interesting worlds created by code, and I can see programming has the magic to make anything come true!  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="demo">
+      <h1><br>Project Demo</h1>
+      <div class = "container-fluid">
+        <h1><br></h1>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+              </div>
+              <div class = "slide-right-text">
+                <div class = "carousel-caption">
+                  <h1>Firewall Project<br><br></h1>
+                  <h5>Programming language: Python<br>
+                    Environment: Linux(Admin)<br><br>
+                  </h5>
+                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+              </div>
+              <div class = "slide-right-text">
+                <div class = "carousel-caption">
+                  <h1>Firewall Project<br><br></h1>
+                  <h5>Programming language: Python<br>
+                    Environment: Linux(Admin)<br><br>
+                  </h5>
+                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+              </div>
+              <div class = "slide-right-text">
+                <div class = "carousel-caption">
+                  <h1>Firewall Project<br><br></h1>
+                  <h5>Programming language: Python<br>
+                    Environment: Linux(Admin)<br><br>
+                  </h5>
+                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="demo">
+      <h2>Past Projects:</h2>
+      <p>
+        some imgs in slides at here.
+      </p>
+    </section>
 
 
 
 
-  <div class="pimg3" id="contact_us">
-    <div class="ptext">
-     <span class="border">
-      We appreciate your visit:)
-    </span>
-  </div>
-</div>
 
 
-
-
-
-
-<!-- Circle Img Intro -->
+    <!-- Circle Img Intro -->
   <!-- <div class = "container">
     <div class = "row">
       <div class="col-lg-4">
@@ -146,124 +196,33 @@ require_once('config.php');
     </div>
   </div> -->
 
-  <!-- Modal SignUp -->
-  <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <form action = "signup.php" method="post">
-          <div class="modal-header">
-            <h5 class="modal-title" id="signup">Sign Up</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class = "container">
-              <div class="form-group">
-                <label for="username" class="col-form-label">UserName:</label>
-                <input type="text" class="form-control" id ="username" name="username" required>
-              </div>
-              <div class="form-group">
-                <label for="password" class="col-form-label">Password:</label>
-                <input type="text" class="form-control" id= "password" name="password" required>
-              </div>
-              <div class="form-group">
-                <label for="firstname" class="col-form-label">First Name:</label>
-                <input type="text" class="form-control" id= "firstname" name="firstname" required>
-              </div>
-              <div class="form-group">
-                <label for="lastname" class="col-form-label">Last Name:</label>
-                <input type="text" class="form-control" id= "lastname" name="lastname" required>
-              </div>
-              <div class="form-group">
-                <label for="phone" class="col-form-label">Phone:</label>
-                <input type="text" class="form-control" id= "phone" name="phone" required>
-              </div>
-              <div class="form-group">
-                <label for="email" class="col-form-label">Email:</label>
-                <input type="text" class="form-control" id= "email" name="email" required>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="submit" name="signup"class="btn btn-primary">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
+  <div class="pimg3" id="contact_us">
+    <div class="ptext">
+     <span class="border">
+      We appreciate your visit:)
+    </span>
   </div>
-
-  <!-- Log in feature: -->
-  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <form action = "index.php" method="post">
-          <div class="modal-header">
-            <h5 class="modal-title" id="login">Log In</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class = "container">
-              <div class="form-group">
-                <label for="user_name" class="col-form-label">UserName:</label>
-                <input type="text" class="form-control" id="user_name" required>
-              </div>
-              <div class="form-group">
-                <label for="pass_word" class="col-form-label">Password:</label>
-                <input type="text" class="form-control" id="pass_word" required>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" name="button" id="login_button" class="btn btn-primary">Log in</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+</div>
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-  <script>
-    $(function(){
-     $('#login_button').click(function(e){
 
-      var valid = this.form.checkValidity();
 
-      if(valid){
-        var user_name = $('#user_name').val();
-        var pass_word = $('#pass_word').val();
-      }
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-      e.preventDefault();
-
-      $.ajax({
-        type: 'POST',
-        url: 'login.php',
-        data: {user_name: user_name, pass_word: pass_word},
-        success: function(data){
-          alert(data);
-          if($.trim(data) === "Successfully Login!"){
-            setTimeout('window.location.href = "index.php"', 1000);
-          }
-        },
-        error: function(data){
-          alert('there were errors while doing the opration.');
-        }
-      });
-
-    });
-   });
- </script>
- <script src="js/split.js"></script>
+<script>
+  $('.carousel').carousel({
+    interval: 2000,
+    pause: true,
+    keyboard: true
+  })
+</script>
+<script src="../js/split.js"></script>
 </body>
 
 
