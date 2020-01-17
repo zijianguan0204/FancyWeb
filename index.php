@@ -95,7 +95,7 @@ require_once('config.php');
       <h1 class = "split_font_fd">Add Into here
         <br>Next Line...
       </h1>
-      <a href="#" class="button_split">Read More</a>
+      <a href="personal_page/zijian.php" class="button_split">Read More</a>
     </div>
   </div>
 
