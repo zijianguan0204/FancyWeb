@@ -299,16 +299,34 @@ h1.split_font_fd{
     overflow: hidden;
   	display: block;
   	left:10%;
-  	/*margin-right: auto;*/
 }
 
-.carousel-caption {
+.slide-right-text .carousel-caption {
 	padding:0;
     position: absolute;
     top:0;
     color: #000;
     margin-left:50%;
-    /*text-align: center;*/
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
 }
 
 @media(max-width: 800px) {

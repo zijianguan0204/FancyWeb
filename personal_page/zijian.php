@@ -102,49 +102,50 @@
       <div class = "container-fluid">
         <h1><br></h1>
         <div id="carousel" class="carousel slide" data-ride="carousel">
-<!--           <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-          </ol> -->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
               </div>
-              <div class = "carousel-caption">
-                <h1>Firewall Project<br><br></h1>
-                <h5>Programming language: Python<br>
-                  Environment: Linux(Admin)<br><br>
-                </h5>
-                <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
-                </p>
+              <div class = "slide-right-text">
+                <div class = "carousel-caption">
+                  <h1>Firewall Project<br><br></h1>
+                  <h5>Programming language: Python<br>
+                    Environment: Linux(Admin)<br><br>
+                  </h5>
+                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  </p>
+                </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
               </div>
-              <div class = "carousel-caption">
-                <h1>Firewall Project<br><br></h1>
-                <h5>Programming language: Python<br>
-                  Environment: Linux(Admin)<br><br>
-                </h5>
-                <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
-                </p>
+              <div class = "slide-right-text">
+                <div class = "carousel-caption">
+                  <h1>Firewall Project<br><br></h1>
+                  <h5>Programming language: Python<br>
+                    Environment: Linux(Admin)<br><br>
+                  </h5>
+                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  </p>
+                </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
               </div>
-              <div class = "carousel-caption">
-                <h1>Firewall Project<br><br></h1>
-                <h5>Programming language: Python<br>
-                  Environment: Linux(Admin)<br><br>
-                </h5>
-                <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
-                </p>
+              <div class = "slide-right-text">
+                <div class = "carousel-caption">
+                  <h1>Firewall Project<br><br></h1>
+                  <h5>Programming language: Python<br>
+                    Environment: Linux(Admin)<br><br>
+                  </h5>
+                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
