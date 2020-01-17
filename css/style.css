@@ -230,7 +230,7 @@ h1.split_font_fd{
 }
 .split.left {
 	left: 0;
-	background: url('../img/about_us/woman.jpg') center center no-repeat;
+	background: url('../img/person/woman.jpg') center center no-repeat;
 	background-size: cover;
 }
 .split.left:before {
@@ -242,7 +242,7 @@ h1.split_font_fd{
 }
 .split.right {
 	right: 0;
-	background: url('../img/about_us/man.jpg') center center no-repeat;
+	background: url('../img/person/man.jpg') center center no-repeat;
 	background-size: cover;
 }
 .split.right:before {
