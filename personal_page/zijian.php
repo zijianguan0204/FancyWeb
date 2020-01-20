@@ -85,7 +85,7 @@
     <div class ="container">
       <div class="row pt-5">
         <div class="col-6 pt-5">
-          <img src="../img/person/zijian1.jpg" class="img-thumbnail float-left" alt="Responsive image" width="400" height="600">
+          <img src="../img/person/zijian_intro.jpg" class="img-thumbnail float-left" alt="Responsive image">
         </div>
         <div class="col-6 pt-5">
           <div class="ptext_zijian_title">
@@ -151,14 +151,16 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="arrowRed">
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>

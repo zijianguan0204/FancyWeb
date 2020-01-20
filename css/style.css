@@ -1,8 +1,8 @@
 :root {
 	--container-bg-color: #333;
-	--left-bg-color: rgba(223, 39, 39, 0.7);
+	--left-bg-color: rgba(0, 0, 0, 0.5);
 	--left-button-hover-color: rgba(161, 11, 11, 0.3);
-	--right-bg-color: rgba(43, 43, 43, 0.8);
+	--right-bg-color: rgba(0, 0, 0, 0.5);
 	--right-button-hover-color: rgba(92, 92, 92, 0.3);
 	--hover-width: 75%;
 	--other-width: 25%;
@@ -53,26 +53,26 @@ body, html{
 
 
 .pimg1{
-	opacity: 0.7;
-	background-image: url('../img/background/city_train.jpg');
+	opacity: 0.9;
+	background-image: url('../img/background/sjsu1.jpg');
 	min-height:100%;
 }
 
 .pimg2{
-	opacity: 0.7;
-	background-image: url('../img/background/city_blur.jpg');
+	opacity: 0.8;
+	background-image: url('../img/background/sjsu2.jpg');
 	min-height:200px;
 }
 
 .pimg3{
 	opacity: 0.85;
-	background-image: url('../img/background/city3.jpg');
+	background-image: url('../img/background/footer.jpg');
 	min-height:430px;
 }
 
 .pimg_zijian_1{
 	opacity: 1.0;
-	background-image: url('../img/person/person1.jpg');
+	background-image: url('../img/person/zijian_cover.jpg');
 	min-height:100vh;
 }
 
@@ -230,7 +230,7 @@ h1.split_font_fd{
 }
 .split.left {
 	left: 0;
-	background: url('../img/person/woman.jpg') center center no-repeat;
+	background: url('../img/person/zihe.jpg') center center no-repeat;
 	background-size: cover;
 }
 .split.left:before {
@@ -242,7 +242,7 @@ h1.split_font_fd{
 }
 .split.right {
 	right: 0;
-	background: url('../img/person/man.jpg') center center no-repeat;
+	background: url('../img/person/zijian_split.jpg') center center no-repeat;
 	background-size: cover;
 }
 .split.right:before {
@@ -309,21 +309,21 @@ h1.split_font_fd{
     margin-left:50%;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.arrowRed .carousel-control-prev-icon, 
+.arrowRed .carousel-control-next-icon {
     height: 100px;
     width: 100px;
     background-image: none;
 }
 
-.carousel-control-next-icon:after
+.arrowRed .carousel-control-next-icon:after
 {
   content: '>';
   font-size: 55px;
   color: red;
 }
 
-.carousel-control-prev-icon:after {
+.arrowRed .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
   color: red;
