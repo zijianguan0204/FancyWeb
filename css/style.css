@@ -17,6 +17,64 @@ body, html{
 	scroll-behavior: smooth;
 }
 
+/*#yellow {
+	height: 100%;
+	background: yellow;
+}
+#green {
+	height: 100%;
+	background: green;
+}*/
+.col-sm-4.col-md-5.col-lg-6.col-xl-7 {
+	padding-left: 30px;
+}
+.row.justify-content-center.h-100 {
+	padding: 80px 100px;
+}
+p.ver {
+	margin-top: 50px;
+}
+.carousel.slide.carousel-fade {
+	margin-top: 10%;
+	width: auto;
+	height: auto;
+}
+.carousel.slide.carousel-fade img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+    width: 90%;
+}
+.carousel.slide.carousel-fade video {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+    width: 90%;
+}
+.container-fluid.h-100.bg-dark.text-white p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 500px;
+	
+}
+.container-fluid.h-100.bg-dark.text-white.second p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 500px;
+
+}
+/*.container-fluid.h-100 {
+	margin: 200px;
+	height: 400px;
+	width: 900px
+}*/
+
 
 
 #navbar {
@@ -91,6 +149,7 @@ body, html{
 	background-color: #282e34;
 	color: #ddd;
 	min-height:100%;
+	padding-top: 5%
 }
 
 .ptext{
@@ -341,5 +400,11 @@ h1.split_font_fd{
 @media(max-height: 700px) {
 	.button_split {
 		top: 70%;
+	}
+}
+
+@media(max-width: 800px) {
+	p.container-fluid.h-100.bg-dark.text-white {
+		font-size: 0.2rem;
 	}
 }
