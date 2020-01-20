@@ -99,13 +99,138 @@ require_once('config.php');
     </div>
   </div>
 
-  <section class="section section-dark" id="demo">
-    <h2>Past Projects:</h2>
-    <p>
-      some imgs in slides at here.
-    </p>
-  </section>
+  
+  <section class="section section-dark">
+    <h1>
+      Highlight of our past projects:
+    </h1>
+  <!-- Demo goes here: -->
+  <!--Carousel Wrapper-->
+  <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+      <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+      <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <!-- First slide -->
+      <div class="carousel-item active">
+        <!--Mask color-->
+        <div class="view">
 
+          <!-- demo container: text left & media right: -->
+          <div class="container-fluid h-100 bg-dark text-white">
+            <div class="row justify-content-center h-100">
+              <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 hidden-md-down" id="yellow">
+               <p class="ver">
+               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+               </p>
+              </div>
+              <div class="col-sm-4 col-md-5 col-lg-6 col-xl-7" id="green">
+                <!-- Showing demo... -->
+                <img src="img/background/city3.jpg">
+                <!-- Video & Text Source -->
+                <!-- <video class="video" autoplay loop muted>
+                  <source src='img/background/demo_vid.mp4' type="video/mp4" />
+                </video> -->
+              </div>
+            </div>
+          </div>
+          <div class="mask rgba-indigo-light"></div>
+        </div>
+
+        <!--Caption-->
+        <!-- <div class="carousel-caption">
+          <div class="animated fadeInDown">
+            <h4 class="h3-responsive">Past Project</h4>
+          </div>
+        </div> -->
+        <!--Caption-->
+      </div>
+      <!-- /.First slide -->
+
+      <!-- Second slide -->
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <div class="container-fluid h-100 bg-dark text-white second">
+            <div class="row justify-content-center h-100">
+              <div class="col-sm-4 col-md-4 col-lg-5 col-xl-7" id="yellow">
+               <video class="video" autoplay loop muted>
+                  <source src='img/background/demo_vid.mp4' type="video/mp4" />
+                </video>
+              </div>
+              <div class="col-sm-8 col-md-8 col-lg-7 col-xl-5 hidden-md-down" id="green">
+                <p>
+               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+               </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Caption-->
+        <!-- <div class="carousel-caption">
+          <div class="animated fadeInDown">
+            <h3 class="h3-responsive">Project Demo here</h3>
+          </div>
+        </div> -->
+        <!--Caption-->
+      </div>
+      <!-- /.Second slide -->
+
+      <!-- Third slide -->
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <!--3rd project slid-->
+          <div class="container-fluid h-100 bg-dark text-white">
+            <div class="row justify-content-center h-100">
+              <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 hidden-md-down" id="yellow">
+               <p>
+               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+               </p>
+              </div>
+              <div class="col-sm-4 col-md-5 col-lg-6 col-xl-7 hidden-md-down" id="green">
+                <!-- Showing demo... -->
+                <img src="img/background/city1.jpg">
+                <!-- Video & Text Source -->
+                <!-- <video class="video" autoplay loop muted>
+                  <source src='img/background/demo_vid.mp4' type="video/mp4" />
+                </video> -->
+              </div>
+            </div>
+          </div>
+          <div class="mask rgba-black-strong"></div>
+        </div>
+
+        <!--Caption-->
+        <!-- <div class="carousel-caption">
+          <div class="animated fadeInDown">
+            <h3 class="h3-responsive">Project Demo here</h3>
+          </div>
+        </div> -->
+        <!--Caption-->
+      </div>
+      <!-- /.Third slide -->
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--Carousel Wrapper-->
+</section>
 
 
 
