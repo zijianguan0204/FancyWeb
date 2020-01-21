@@ -121,15 +121,18 @@
             </div>
             <div class="carousel-item">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nDKZpjn0uns" allowfullscreen></iframe>
               </div>
               <div class = "slide-right-text">
                 <div class = "carousel-caption">
-                  <h1>Firewall Project<br><br></h1>
-                  <h5>Programming language: Python<br>
-                    Environment: Linux(Admin)<br><br>
+                  <h1>Autonomous Vehicle project<br><br></h1>
+                  <h5>Programming language: Python + C<br>
+                    Environment: Linux<br><br>
                   </h5>
-                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  <p>
+                    Built a fully autonomous RC car from scratch with OpenCV and TensorFlow in Linux environment within one month.
+                    As the teamlead I made sure we followed professional work flow.
+
                   </p>
                 </div>
               </div>
