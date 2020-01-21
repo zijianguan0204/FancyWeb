@@ -106,15 +106,15 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+                <img class="embed-responsive-item" src="../img/zihe_projects/hand.png"></img>
               </div>
               <div class = "slide-right-text">
                 <div class = "carousel-caption">
-                  <h1>Firewall Project<br><br></h1>
-                  <h5>Programming language: Python<br>
-                    Environment: Linux(Admin)<br><br>
+                  <h1>Pattern Recognition Project<br><br></h1>
+                  <h5>Programming language: MATLAB<br>
+                    Environment: Linux<br><br>
                   </h5>
-                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  <p>Programmed different ML algorithms from scratch in MATLAB to minimized error rate using KNN Classifier, BDR, PCA, and SVM to improve classification accuracy.
                   </p>
                 </div>
               </div>
@@ -139,15 +139,15 @@
             </div>
             <div class="carousel-item">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PPeJ5cWFiCE" allowfullscreen></iframe>
+                <img class="embed-responsive-item" src="../img/zihe_projects/design.png"></img>
               </div>
               <div class = "slide-right-text">
                 <div class = "carousel-caption">
-                  <h1>Firewall Project<br><br></h1>
-                  <h5>Programming language: Python<br>
+                  <h1>Design Pattern Application<br><br></h1>
+                  <h5>Programming language: Java<br>
                     Environment: Linux(Admin)<br><br>
                   </h5>
-                  <p>This project is designed for admins of relatively small network environment, who is able filter package from specific sources to destinations.
+                  <p>Applied design patterns such as Composite, Decorator, and Observer for an industrial level of simplicity and maintainability.
                   </p>
                 </div>
               </div>
