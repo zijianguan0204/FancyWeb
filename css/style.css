@@ -93,7 +93,7 @@ p.ver {
 }
 
 
-.pimg1, .pimg2, .pimg3, .pimg_zijian_1{
+.pimg1, .pimg2, .pimg3, .pimg_zijian_1, .pimg_zihe_1{
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -131,6 +131,12 @@ p.ver {
 .pimg_zijian_1{
 	opacity: 1.0;
 	background-image: url('../img/person/zijian_cover.jpg');
+	min-height:100vh;
+}
+
+.pimg_zihe_1{
+	opacity: 1.0;
+	background-image: url('../img/person/zihe_cover.JPG');
 	min-height:100vh;
 }
 
