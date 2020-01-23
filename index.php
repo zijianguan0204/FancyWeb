@@ -88,7 +88,7 @@ require_once('config.php');
       <h1 class = "split_font_fd">Add Into here
         <br>Next Line...
       </h1>
-      <a href="#" class="button_split">Read More</a>
+      <a href="personal_page/zihe.php" class="button_split">Read More</a>
     </div>
     <div class="split right">
       <h1 class = "split_font">Zijian Guan</h1>  
@@ -418,28 +418,18 @@ require_once('config.php');
             <ul class="list-unstyled list-inline text-center">
               <h3 style="color:#FFFFFF;">Zihe Deng's</h3>
               <li class="list-inline-item">
-                <a href="google.com" class="btn-floating btn-fb mx-1">
-                  <i class="fab fa-facebook-f fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-tw mx-1">
-                  <i class="fab fa-twitter fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-gplus mx-1">
-                  <i class="fab fa-google-plus-g fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-li mx-1">
+                <a href="https://www.linkedin.com/in/dengtyler/" class="btn-floating btn-gplus mx-1">
                   <i class="fab fa-linkedin-in fa-2x" style="color:#FF0000;"> </i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-floating btn-dribbble mx-1">
-                  <i class="fab fa-dribbble fa-2x" style="color:#FF0000;"> </i>
+                <a href="https://github.com/tylergithub" class="btn-floating btn-li mx-1">
+                  <i class="fab fa-github fa-2x" style="color:#FF0000;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCLIevMiSLVJjg4ce9M1M3jw?view_as=subscriber" class="btn-floating btn-dribbble mx-1">
+                  <i class="fab fa-youtube fa-2x" style="color:#FF0000;"> </i>
                 </a>
               </li>
             </ul>

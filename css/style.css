@@ -93,7 +93,7 @@ p.ver {
 }
 
 
-.pimg1, .pimg2, .pimg3, .pimg_zijian_1{
+.pimg1, .pimg2, .pimg3, .pimg_zijian_1, .pimg_zihe_1{
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -134,6 +134,12 @@ p.ver {
 	min-height:100vh;
 }
 
+.pimg_zihe_1{
+	opacity: 1.0;
+	background-image: url('../img/person/zihe_cover.JPG');
+	min-height:100vh;
+}
+
 .section{
 	text-align:center;
 	padding:0px;
@@ -149,7 +155,7 @@ p.ver {
 	background-color: #282e34;
 	color: #ddd;
 	min-height:100%;
-	padding-top: 5%
+	padding-top: 5%;
 }
 
 .ptext{
@@ -388,6 +394,10 @@ h1.split_font_fd{
   color: red;
 }
 
+/*p.carousel-caption {
+	font-size: 3rem;
+}*/
+
 @media(max-width: 800px) {
 	h1.split_font {
 		font-size: 2rem;
@@ -408,3 +418,10 @@ h1.split_font_fd{
 		font-size: 0.2rem;
 	}
 }
+
+/*@media(max-width: 800px) {
+	p.carousel-caption {
+		font-size: 1rem;
+	}
+}
+*/

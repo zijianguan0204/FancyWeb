@@ -23,7 +23,7 @@
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-    <a class="navbar-brand" href="#">FancyWeb</a>
+    <a class="navbar-brand" href="../index.php">FancyWeb</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="../index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about_us">About Us</a>
@@ -269,28 +269,18 @@
             <ul class="list-unstyled list-inline text-center">
               <h3 style="color:#FFFFFF;">Zihe Deng's</h3>
               <li class="list-inline-item">
-                <a href="google.com" class="btn-floating btn-fb mx-1">
-                  <i class="fab fa-facebook-f fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-tw mx-1">
-                  <i class="fab fa-twitter fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-gplus mx-1">
-                  <i class="fab fa-google-plus-g fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-li mx-1">
+                <a href="https://www.linkedin.com/in/dengtyler/" class="btn-floating btn-gplus mx-1">
                   <i class="fab fa-linkedin-in fa-2x" style="color:#FF0000;"> </i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-floating btn-dribbble mx-1">
-                  <i class="fab fa-dribbble fa-2x" style="color:#FF0000;"> </i>
+                <a href="https://github.com/tylergithub" class="btn-floating btn-li mx-1">
+                  <i class="fab fa-github fa-2x" style="color:#FF0000;"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCLIevMiSLVJjg4ce9M1M3jw?view_as=subscriber" class="btn-floating btn-dribbble mx-1">
+                  <i class="fab fa-youtube fa-2x" style="color:#FF0000;"> </i>
                 </a>
               </li>
             </ul>
