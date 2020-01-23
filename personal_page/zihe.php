@@ -69,7 +69,7 @@
   
 
 
-  <section class="section section-dark" id="demo">
+  <section class="section section-light" id="demo">
     <div class="pimg_zihe_1" id="Demo1">
       <div class ="container">
         <div class="row pt-5">

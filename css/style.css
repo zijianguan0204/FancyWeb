@@ -155,7 +155,7 @@ p.ver {
 	background-color: #282e34;
 	color: #ddd;
 	min-height:100%;
-	padding-top: 5%
+	padding-top: 5%;
 }
 
 .ptext{
@@ -394,6 +394,10 @@ h1.split_font_fd{
   color: red;
 }
 
+/*p.carousel-caption {
+	font-size: 3rem;
+}*/
+
 @media(max-width: 800px) {
 	h1.split_font {
 		font-size: 2rem;
@@ -414,3 +418,10 @@ h1.split_font_fd{
 		font-size: 0.2rem;
 	}
 }
+
+/*@media(max-width: 800px) {
+	p.carousel-caption {
+		font-size: 1rem;
+	}
+}
+*/
